@@ -6,7 +6,7 @@ public class Cliente extends Persona {
 	//Creo los atributos privados segun el diagrama UML de clases
 	private int clienteId;
 	
-	//Creo el constructor de mi clase persona
+	//Creo el constructor de mi clase cliente
 	public Cliente(String nombre, String apellido, String numeroFiscal, String direccion, int clienteId) {
 		super(nombre, apellido, numeroFiscal, direccion);
 		this.clienteId = clienteId;
